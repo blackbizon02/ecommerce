@@ -1,0 +1,394 @@
+$primary-color: #ff302c;
+$font-color: rgb(88, 81, 81);
+
+
+@media(min-width:1200px){
+    .container {
+        max-width: 1140px;
+    }
+}
+@media(max-width:1200px){
+    .all {
+        justify-content: center !important;
+    }
+}
+.all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    .sal {
+        width: 540px;
+        height: 300px;
+        display: flex;
+        margin-bottom: 30px;
+        position: relative;
+    
+        img {
+            width: 560px;
+            height: 300px;
+            max-width: 100%;
+            object-fit: contain;
+            background-position: right;
+        }
+
+        .text {
+            position: absolute;
+            top: 50%;
+            left: 50px;
+            transform: translateY(-50%);
+            max-width: 220px;
+            color: $font-color;
+
+            h6,h4 {
+                text-transform: capitalize;
+            }
+            span {
+                color: #ff302c;
+            }
+            button {
+                border: 1px solid $font-color;
+                margin-top: 20px;
+                border-radius: 50px;
+                text-transform: capitalize;
+                padding: 5px 10px;
+                background-color: transparent;
+
+                svg {
+                    width: 12px;
+                    margin-left: 5px;
+                    fill: $font-color;
+                }
+            }
+        }
+    }
+}
+
+
+.featured-prods {
+    h6 {
+        text-transform: capitalize;
+        color: #ff302c;
+        text-align: center;
+    }
+    h3 {
+        text-transform: capitalize;
+        text-align: center;
+        color: $font-color;
+        margin-bottom: 30px;
+    }
+
+    @media(max-width:768px){
+        .mma {
+            justify-content: center !important;
+        }
+    }
+
+    .mma {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .prods{
+        position: relative;
+        margin-bottom: 30px;
+        
+        img {
+            width: 260px;
+            height: 300px;
+            object-fit: cover;
+        }
+        h6 {
+            color: $font-color;
+            text-align: left;
+        }
+
+        .line {
+           position: relative; 
+           color: rgb(172, 170, 170);
+           padding-right: 10px;
+        }
+
+        .line:after {
+            content: '';
+            position: absolute;
+            width: 45px;
+            height: 1px;
+            background-color: rgb(172, 170, 170);
+            left: 0;
+            bottom: 45%;
+        }
+
+        .sldisplay {
+            position: absolute;
+            background-color: #ff302c;
+            color: #fff;
+            padding: 2px 4px;
+            top: 15px;
+            left: 15px;
+        } 
+
+        .cartm {
+           position: absolute;
+           bottom: 80px;
+           left: 33px;
+           visibility: hidden;
+           
+
+
+            span {
+            padding: 10px 12px;
+            background-color: #fff;
+            margin: 0 4px;
+            
+            cursor: pointer;
+
+                svg {
+                    width: 16px;
+                    fill: $primary-color;
+                }
+            }
+
+        }
+        .new {
+            text-transform: uppercase;
+            background-color: #000;
+            color: #fff;
+            padding: 2px 14px;
+            position: absolute;
+            top: 15px;
+            left: 0;
+            font-size: 14px;
+        }
+    }
+    .llass:hover .cartm {
+        visibility: visible;
+    }
+}
+
+.advert {
+
+    @media(max-width:1228px){
+        .cont {
+            flex-wrap: wrap;
+        }
+    }
+    .cont {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        max-width: 1700px;
+        margin: 0 auto;
+        
+
+        .txt {
+            max-width: 200px;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 30px;
+            z-index: 99;
+            text-transform: capitalize;
+            color: rgb(48, 47, 47);
+
+            button {
+                border: 1px solid $font-color;
+                margin-top: 20px;
+                border-radius: 50px;
+                text-transform: capitalize;
+                padding: 5px 15px;
+                background-color: transparent;
+                text-transform: uppercase;
+            }
+            span {
+                color: $primary-color;
+            }
+        }
+
+        img {
+            width: 400px;
+            max-width: 100%;
+            height: 240px;
+            object-fit: fill;
+            margin: 20px 10px;
+        }
+    }
+
+    .buble {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: $primary-color;
+        color: #fff;
+        position: absolute;
+        top: 30px;
+        right: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .sec {
+        justify-content: center;
+        align-items: center;
+        text-transform: capitalize;
+        padding: 30px 10px;
+        svg {
+            width: 50px;
+            margin-right: 10px;
+            fill: $primary-color;
+        }
+        p {
+            margin: 0;
+        }
+    }
+}
+
+.newsSetler {
+    text-transform: capitalize;
+    background-image: url('../../assets/img/1.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    h6 {
+        color: #ff302c;
+    }
+    
+
+    .ssa {
+        justify-content: space-between;
+        align-items: center;
+        padding: 80px 0;
+    }
+
+    input {
+        width: 400px;
+        max-width: 100% !important;
+        height: 60px;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 50px;
+        outline: none;
+        margin-right: 20px;
+        text-transform: capitalize;
+    }
+    @media(max-width:768px){
+        .ssa {
+            justify-content: center;
+            flex-direction: column;
+
+            input {
+                margin: 30px 0;
+                width: 300px;
+            }
+
+            button {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    
+    .kkk {
+        
+        svg {
+           width: 20px; 
+           fill: #ff302c;
+           position: absolute;
+           right: 10%;
+           z-index: 99;
+           top: 50%;
+           transform: translateY(-50%);
+        }
+        
+    }
+
+    button {
+        width: 200px;
+        height: 60px;
+        border: none;
+        background-color: #ff302c;
+        border-radius: 50px;
+        text-transform: uppercase;
+        color: #fff;
+
+        svg {
+            width: 25px;
+            padding-left: 10px;
+            fill: #fff;
+            padding-bottom: 5px;
+        }
+    }
+}
+
+
+.blog {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-transform: capitalize;
+
+    h6 {
+        text-align: center;
+        color: $primary-color;
+    }
+    h3 {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    span {
+        img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        svg {
+            width: 15px;
+            fill: $font-color;
+            padding-bottom: 5px;
+        }
+    }
+
+    @media(max-width: 992px) {
+        .blogs {
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+
+    .blogs {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+
+
+        .card {
+            width: 360px;
+            max-width: 100%;
+            border: none;
+            margin-bottom: 30px;
+
+            .card-img-top {
+                height: 250px;
+                object-fit: cover;
+            }
+        }
+    }
+}

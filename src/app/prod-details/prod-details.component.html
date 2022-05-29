@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="main d-flex mt-5 mb-5 pt-5 pb-5">
+        <div class="img">
+            <img [src]="prod.poster" alt="">
+        </div>
+        <div class="text ps-5">
+            <h2>{{prod.title}}</h2>
+            <p>{{prod.body}}</p>
+            <p *ngIf="prod.disc_price;else elseblog">{{prod.disc_price}}$</p>
+            <ng-template #elseblog>{{prod.price}}$</ng-template>
+        </div>
+    </div>
+</div>

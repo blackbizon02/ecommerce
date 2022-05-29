@@ -1,0 +1,9 @@
+
+    {
+        "id":1,
+        "title": "featured product",
+        "name": "cosima channel tufted chair",
+        "body": "lorem ipsum dolor amet",
+        "poster": "/assets/img/armchair.jfif",
+        "shop": true
+    }

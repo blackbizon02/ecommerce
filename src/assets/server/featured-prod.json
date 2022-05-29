@@ -1,0 +1,68 @@
+[
+    {
+        "id":7,
+        "title":"valter brass drink table",
+        "price":96.66,
+        "disc_price":66.66,
+        "sale":true,
+        "poster":"/assets/img/table.jfif"
+    },
+    {
+        "id":8,
+        "title":"turkish cotton 800-gram bath",
+        "price":66.66,
+        "disc_price": 0,
+        "sale":false,
+        "poster":"/assets/img/lma.jfif"
+    },
+    {
+        "id":9,
+        "title":"humanscape grafite smart",
+        "price":66.66,
+        "disc_price": 49.66,
+        "sale":true,
+        "poster":"/assets/img/ss.jfif"
+    },
+    {
+        "id":10,
+        "title":"annie natural storage cabinet",
+        "price":66.66,
+        "disc_price":0,
+        "sale":false,
+        "poster":"/assets/img/cabinet.jfif",
+        "new":true
+    },
+    {
+        "id":11,
+        "title":"willime concrete & glass vase",
+        "price":66.66,
+        "disc_price":0,
+        "sale":false,
+        "poster":"/assets/img/vase.jfif"
+    },
+    {
+        "id":12,
+        "title":"hay cane key ring",
+        "price":66.66,
+        "disc_price":49.66,
+        "sale":true,
+        "poster":"/assets/img/some.png"
+    },
+    {
+        "id":13,
+        "title":"humanscale graphite smart",
+        "price":66.66,
+        "disc_price":0,
+        "sale":false,
+        "poster":"/assets/img/chairs.png"
+    },
+    {
+        "id":14,
+        "title":"blimp table light",
+        "price":66.66,
+        "disc_price":0,
+        "sale":false,
+        "poster":"/assets/img/tablelight.jfif",
+        "new":true
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "id":18,
+        "title":"coat ciel & isar backpack",
+        "price": 66.66,
+        "sale":false,
+        "poster":"assets/img/gioel.jfif"
+    },
+    {
+        "id":19,
+        "title":"turkish bath",
+        "price": 76.66,
+        "sale":true,
+        "disc_price":66.66,
+        "poster":"assets/img/leather.jfif"
+    },
+    {
+        "id":20,
+        "title":"humanscale grafite smart",
+        "price": 66.66,
+        "sale":false,
+        "poster":"assets/img/lamp.jfif"
+    },
+    {
+        "id":21,
+        "title":"coat ciel & isar backpack",
+        "price": 66.66,
+        "sale":false,
+        "new":true,
+        "poster":"assets/img/gioel.jfif"
+    }
+]

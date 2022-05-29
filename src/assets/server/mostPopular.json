@@ -1,0 +1,20 @@
+[
+    {
+        "id":15,
+        "title":"audrina bookcase down alternative",
+        "sale":20,
+        "poster":"assets/img/book.jfif"
+    },
+    {
+        "id":16,
+        "title":"novogratz britany sofa",
+        "sale":21,
+        "poster":"assets/img/sofa.png"
+    },
+    {
+        "id":17,
+        "title":"seal chair, high back",
+        "sale":33,
+        "poster":"assets/img/book.jfif"
+    }
+]

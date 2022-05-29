@@ -1,0 +1,26 @@
+[
+    {
+        "id":2,
+        "sale": 20,
+        "title":"verne rattan chair with cushion",
+        "poster":"assets/img/verne-chair.jfif"
+    },
+    {
+        "id":3,
+        "sale": 15,
+        "title":"cobo small woven pendant light",
+        "poster":"assets/img/cahi.png"
+    },
+    {
+        "id":4,
+        "sale": 59,
+        "title":"presti 18 pillow with down-alternative",
+        "poster":"assets/img/verne-chair.jfif"
+    },
+    {
+        "id":5,
+        "sale": 43,
+        "title":"cabo small woven lachin table lamp",
+        "poster":"assets/img/verne-chair.jfif"
+    }
+]
